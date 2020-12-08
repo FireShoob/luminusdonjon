@@ -1,4 +1,6 @@
-<h1 class="title">Congratulations, your <a class="alert-link" href="http://luminusweb.net">Luminus</a> site is ready!</h1>
+<h1 class="title">Welcome to Kobold Architects</h1>
+
+This is Currently a Work in Progress!
 
 This page will help guide you through the first steps of building your site.
 
