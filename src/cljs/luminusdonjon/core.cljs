@@ -24,7 +24,7 @@
   (r/with-let [expanded? (r/atom false)]
               [:nav.navbar.is-info>div.container
                [:div.navbar-brand
-                [:a.navbar-item {:href "/" :style {:font-weight :bold}} "luminusdonjon"]
+                [:a.navbar-item {:href "/" :style {:font-weight :bold}} "Kobold Architects"]
                 [:span.navbar-burger.burger
                  {:data-target :nav-menu
                   :on-click #(swap! expanded? not)
