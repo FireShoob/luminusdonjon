@@ -9,7 +9,8 @@
     [luminusdonjon.config :refer [env]]
     [ring.middleware.flash :refer [wrap-flash]]
     [ring.adapter.undertow.middleware.session :refer [wrap-session]]
-    [ring.middleware.defaults :refer [site-defaults wrap-defaults]])
+    [ring.middleware.defaults :refer [site-defaults wrap-defaults]]
+    [ring.util.response :refer [resource-response]])
   )
 
 (defn wrap-internal-error [handler]
@@ -47,3 +48,9 @@
             (assoc-in [:security :anti-forgery] false)
             (dissoc :session)))
       wrap-internal-error))
+
+(defn wrap-return-favicon [handler]
+  (fn [req]
+    (if (= [:get "/favicon.ico"] [(:request-method req) (:uri req)])
+      (resource-response "favicon.ico" {:root "public"})
+      (handler req))))
