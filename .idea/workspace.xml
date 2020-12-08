@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75dd5cf2-5c95-44e4-af8f-7c60e9d735d6" name="Default Changelist" comment="Attempting">
+    <list default="true" id="75dd5cf2-5c95-44e4-af8f-7c60e9d735d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/html/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clj/luminusdonjon/middleware.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clj/luminusdonjon/middleware.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clj/luminusdonjon/routes/home.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clj/luminusdonjon/routes/home.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/html/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+            <state relative-caret-position="170">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -198,7 +196,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607468890171" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607469082807" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,7 +206,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Clojure.Compiler" />
   </component>
-  <component name="ReplState" timestamp="1607468885560">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1607469300928">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -296,7 +294,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607455887535</updated>
       <workItem from="1607455888642" duration="1872000" />
-      <workItem from="1607459369991" duration="8230000" />
+      <workItem from="1607459369991" duration="8645000" />
     </task>
     <task id="LOCAL-00001" summary="First Real Commit, added style tweaks, License, and updated names">
       <created>1607462593342</created>
@@ -326,15 +324,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607466790309</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Attempting to add favicon">
+      <created>1607468916020</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607468916020</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10102000" />
+    <option name="totallyTimeSpent" value="10517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49805143" visible="true" weight="0.22734499" />
       <window_info id="Structure" order="1" sideWeight="0.50194854" side_tool="true" visible="true" weight="0.22734499" />
@@ -387,7 +391,8 @@
     <MESSAGE value="First Real Commit, added style tweaks, License, and updated names" />
     <MESSAGE value="Commenting out broken Favicon" />
     <MESSAGE value="Changing Home Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing Home Button" />
+    <MESSAGE value="Attempting to add favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempting to add favicon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
@@ -456,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/html/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
