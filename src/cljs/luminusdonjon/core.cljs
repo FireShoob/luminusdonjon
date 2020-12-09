@@ -22,7 +22,7 @@
 
 (defn navbar [] 
   (r/with-let [expanded? (r/atom false)]
-              [:nav.navbar.is-info>div.container
+              [:nav.navbar.is-primary>div.container
                [:div.navbar-brand
                 [:a.navbar-item {:href "/" :style {:font-weight :bold}} "Kobold Architects"]
                 [:span.navbar-burger.burger
@@ -34,16 +34,22 @@
                 {:class (when @expanded? :is-active)}
                 [:div.navbar-start
                  [nav-link "#/" "Home" :home]
+                 [nav-link "#/generator" "Generator" :generator]
                  [nav-link "#/about" "About" :about]]]]))
 
 (defn about-page []
   [:section.section>div.container>div.content
-   [:img {:src "/img/warning_clojure.png"}]])
+   (when-let ["docs/about.md" @(rf/subscribe [:docs])]
+     [:div {:dangerouslySetInnerHTML {:__html (md->html "docs/about.md")}}])])
 
 (defn home-page []
   [:section.section>div.container>div.content
    (when-let [docs @(rf/subscribe [:docs])]
      [:div {:dangerouslySetInnerHTML {:__html (md->html docs)}}])])
+
+(defn generator-page []
+  [:section.section>div.container>div.content
+   [:img {:src "img/warning_clojure.png"}]])
 
 (defn page []
   (if-let [page @(rf/subscribe [:common/page])]
@@ -59,6 +65,8 @@
     [["/" {:name        :home
            :view        #'home-page
            :controllers [{:start (fn [_] (rf/dispatch [:page/init-home]))}]}]
+     ["/generator" {:name :generator
+                    :view #'generator-page}]
      ["/about" {:name :about
                 :view #'about-page}]]))
 
