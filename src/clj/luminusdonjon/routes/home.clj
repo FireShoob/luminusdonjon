@@ -17,5 +17,8 @@
    ["/" {:get home-page}]
    ["/docs" {:get (fn [_]
                     (-> (response/ok (-> "docs/docs.md" io/resource slurp))
-                        (response/header "Content-Type" "text/plain; charset=utf-8")))}]])
+                        (response/header "Content-Type" "text/plain; charset=utf-8")))}]
+   ["/about" {:get (fn [_]
+                     (-> (response/ok (-> "docs/about.md" io/resource slurp))
+                         (response/header "Content-Type" "text/plain; charset=utf-8")))}]])
 

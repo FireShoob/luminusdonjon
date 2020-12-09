@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75dd5cf2-5c95-44e4-af8f-7c60e9d735d6" name="Default Changelist" comment="Fixed Bad Reference">
-      <change afterPath="$PROJECT_DIR$/resources/docs/about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/docs/home.md" afterDir="false" />
+    <list default="true" id="75dd5cf2-5c95-44e4-af8f-7c60e9d735d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/docs/docs.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/docs/docs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cljs/luminusdonjon/core.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/cljs/luminusdonjon/core.cljs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +31,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cljs/luminusdonjon/core.cljs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
@@ -53,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clj/luminusdonjon/handler.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -224,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607478840674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607479097048" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -239,7 +235,7 @@
       <recent name="C:\Users\Miles\Desktop\luminusdonjon\resources\docs" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1607478838621">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1607479097047">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -332,7 +328,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607455887535</updated>
       <workItem from="1607455888642" duration="1872000" />
-      <workItem from="1607459369991" duration="15227000" />
+      <workItem from="1607459369991" duration="15485000" />
     </task>
     <task id="LOCAL-00001" summary="First Real Commit, added style tweaks, License, and updated names">
       <created>1607462593342</created>
@@ -383,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1607469775385</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added new page for putting generator on">
+      <created>1607478921816</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607478921816</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17099000" />
+    <option name="totallyTimeSpent" value="17357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -446,7 +449,8 @@
     <MESSAGE value="Changing Home Button" />
     <MESSAGE value="Attempting to add favicon" />
     <MESSAGE value="Fixed Bad Reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bad Reference" />
+    <MESSAGE value="Added new page for putting generator on" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new page for putting generator on" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -499,20 +503,6 @@
     <entry file="file://$PROJECT_DIR$/src/clj/luminusdonjon/nrepl.clj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/luminusdonjon/middleware.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/luminusdonjon/layout.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/docs/docs.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -533,10 +523,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/luminusdonjon/handler.clj">
+    <entry file="file://$PROJECT_DIR$/src/cljs/luminusdonjon/core.cljs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="765">
+          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/luminusdonjon/layout.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/luminusdonjon/middleware.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -547,10 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cljs/luminusdonjon/core.cljs">
+    <entry file="file://$PROJECT_DIR$/src/clj/luminusdonjon/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        <state relative-caret-position="578">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
         </state>
       </provider>
     </entry>
