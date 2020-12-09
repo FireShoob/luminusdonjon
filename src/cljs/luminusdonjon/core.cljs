@@ -39,7 +39,7 @@
 
 (defn about-page []
   [:section.section>div.container>div.content
-   (when-let [about @(rf/subscribe [:about])]
+   (when-let [about @(rf/subscribe [:docs])]
      [:div {:dangerouslySetInnerHTML {:__html (md->html about)}}])])
 
 (defn home-page []
